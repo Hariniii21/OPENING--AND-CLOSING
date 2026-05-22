@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 def load_img():
     blank_img=np.zeros((600,600))
     font=cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(blank_img,text='CLARI',org=(50,300), fontFace=font, fontScale=5, color=(255,255,255), thickness=25, lineType=cv2.LINE_AA)
+    cv2.putText(blank_img,text='HARINI',org=(50,300), fontFace=font, fontScale=5, color=(255,255,255), thickness=25, lineType=cv2.LINE_AA)
     return blank_img
 def display_img(img):
     fig=plt.figure(figsize=(12,10))
